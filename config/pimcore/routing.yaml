@@ -1,0 +1,3 @@
+classification_store_syndicator_homepage:
+    path:     /classification_store_syndicator
+    defaults: { _controller: Cascade\ClassificationStoreSyndicatorBundle\Controller\DefaultController::indexAction }

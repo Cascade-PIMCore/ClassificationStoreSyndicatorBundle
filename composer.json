@@ -1,0 +1,24 @@
+{
+    "name": "cascade/classification-store-syndicator-bundle",
+    "type": "pimcore-bundle",
+    "autoload": {
+        "psr-4": {
+            "Cascade\\ClassificationStoreSyndicatorBundle\\": "src/"
+        }
+    },
+    "extra": {
+      "pimcore": {
+        "bundles": [
+          "Cascade\\ClassificationStoreSyndicatorBundle\\ClassificationStoreSyndicatorBundle"
+        ]
+      }
+    },
+    "authors": [
+        {
+            "name": "andersenmm",
+            "email": "80maxandersen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
